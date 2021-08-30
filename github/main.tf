@@ -4,7 +4,7 @@ provider "github" {
   owner = "deontpearson"
 }
 
-module "example_repo" {
+module "example" {
   source      = "./example"
   name        = "example"
   description = "An example repo"
